@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+input {
+  margin-top: 20px;
+}
+
+button {
+  margin-left: 5px;
+}
+
+body{background:#ecf0f1;}
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+    &:active, &:focus{
+    	border: 0;
+    	outline: 0;
+    }
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 .0625rem rgba(0, 0, 0, .5);
+    margin-top: 10px;
+  }
